@@ -2,10 +2,10 @@ const mysql = require("mysql2")
 require("dotenv").config()
 
 const con = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
+  host: "bfckkvc7ukodqlejszef-mysql.services.clever-cloud.com",
+  user: "u8fj6xfx6lwplxbo",
+  password: "ROK1w0rE2vKQH60HxlCk",
+  database: "bfckkvc7ukodqlejszef",
   connectionLimit: 10
 })
 
