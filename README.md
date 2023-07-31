@@ -13,6 +13,7 @@ Featuring out the schema of the 3 actors and other procedurals,
     Bookings - BookingId, CatalogueId, UserId
 
 Basic Add-ons : 
+
     BCRYPT to store passwords in DB in a secure way
     Granting approval for Property-owners only by ADMIN
     Using JWT with a unique KEY and its ID for authorization
